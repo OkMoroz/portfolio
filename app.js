@@ -12,12 +12,12 @@
     })
 })();
 
-    
-  const downloadButton = document.querySelector(".main-btn");
 
-  downloadButton.addEventListener("click", () => {
+const downloadButton = document.querySelector(".main-btn");
+
+downloadButton.addEventListener("click", () => {
     const resumeUrl =
-      "https://github.com/OkMoroz/CV-Oksana-Moroz/raw/main/CV%20Oksana%20Moroz%20FE.pdf";
+        "https://github.com/OkMoroz/CV-Oksana-Moroz/raw/main/CV%20Oksana%20Moroz%20FE.pdf";
 
     const downloadLink = document.createElement("a");
     downloadLink.href = resumeUrl;
@@ -27,5 +27,4 @@
     downloadLink.click();
 
     document.body.removeChild(downloadLink);
-  });
-
+});

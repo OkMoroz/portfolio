@@ -1,3 +1,5 @@
+@use "./media" as *;
+
 * {
   margin: 0;
   padding: 0;
@@ -101,7 +103,6 @@ section {
   .control {
     padding: 1rem;
     cursor: pointer;
-    background-color: var(--color-grey-4);
     color: var(--color-grey-2);
     width: 55px;
     height: 55px;
@@ -427,5 +428,4 @@ section {
     }
   }
 
-  @import "./media";
 }
