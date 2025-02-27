@@ -19,6 +19,8 @@
   --color-grey-4: #454e56;
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
+  --color-btn: #ffffff;
+
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.3);
 }
@@ -35,6 +37,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #f8f8f8;
   --color-grey-6: #12181b;
+  --color-btn: #e4bfde;
 }
 
 body {
@@ -114,7 +117,7 @@ section {
     box-shadow: var(--box-shadow-1);
     i {
       font-size: 1.2rem;
-      color: var(--color-grey-2);
+      color: var(--color-btn);
       pointer-events: none;
     }
   }
